@@ -23,4 +23,3 @@ with open('stocks.csv') as stocksFile:
         print (f'{name} is {status} ({float(pct):.2f})')
 
 
-Data is added in this file 
