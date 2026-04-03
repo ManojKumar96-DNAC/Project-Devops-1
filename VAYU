@@ -21,3 +21,6 @@ with open('stocks.csv') as stocksFile:
     for ticker, name, price, change, pct in stocks:
         status = status_labels[cmp(float(change), 0.0)]
         print (f'{name} is {status} ({float(pct):.2f})')
+
+
+Data is added in this file 
