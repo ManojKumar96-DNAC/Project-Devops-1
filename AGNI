@@ -1,2 +1,14 @@
 Moved all devices from AGNI LAb.
 
+# Create a list called original_list
+original_list = [1, 2, 3]
+
+# Create a shallow copy of original_list using the list() function
+copied_list = list(original_list)
+
+# Modify the first element of copied_list
+copied_list[0] = 99
+
+print(original_list)
+
+Manoj
