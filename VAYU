@@ -3,7 +3,7 @@ import csv
 def cmp(a, b):
     '''Return -1 if a < b, 0 if a == b, 1 if a > b'''
     return (a > b) - (a < b)
-
+MMMMMMMMMMMMMMMMKKKKKKKKKKKKKKKKKKKK
 # write stocks data as comma-separated values
 with open('stocks.csv', 'w', newline='') as stocksFileW:
     writer = csv.writer(stocksFileW)
